@@ -1,0 +1,23 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ECSHOP Menu</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/Public/Styles/general.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+body {
+  margin:200px;
+}
+
+</style>
+
+</head>
+<body>
+    <form action="/Gii/Index/index.html" method="post">
+    表名:<input type="text" name="table_name"><br/><br/>
+    生成到模块名:<input type="text" name="module_name"/>    
+        <input type="submit" value="生成代码">
+    </form>        
+</body>
+</html>

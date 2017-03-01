@@ -1,0 +1,30 @@
+[ 2015-06-28T20:40:41+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+
+[ 2015-06-28T20:41:06+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '是' in 'where clause'
+
+[ 2015-06-28T20:41:54+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '是' in 'where clause'
+
+[ 2015-06-28T20:42:59+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '是' in 'where clause'
+
+[ 2015-06-28T21:29:53+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id!=22 )' at line 1
+
+[ 2015-06-28T21:31:05+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+
+[ 2015-06-28T21:41:17+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+
+[ 2015-06-28T21:41:18+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+
+[ 2015-06-28T21:42:33+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+
+[ 2015-06-28T21:42:35+08:00 ] 127.0.0.1 /Ad/Ad/save/id/22
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '图片' in 'where clause'
+

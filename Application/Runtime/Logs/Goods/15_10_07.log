@@ -1,0 +1,6 @@
+[ 2015-10-07T21:43:14+08:00 ] 127.0.0.1 /Goods/Goods/product/goods_id/85
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+
+[ 2015-10-07T21:44:39+08:00 ] 127.0.0.1 /Goods/Goods/product/goods_id/85
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+

@@ -1,0 +1,12 @@
+[ 2015-06-04T19:52:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-06-04T21:30:46+08:00 ] 127.0.0.1 /lst/type_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003474s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004947s ]
+ERR: 无法加载模块:Lst
+

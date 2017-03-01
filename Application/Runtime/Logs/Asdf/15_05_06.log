@@ -1,0 +1,438 @@
+[ 2015-05-06T19:46:41+08:00 ] 127.0.0.1 /Asdf/Goods/a.lsthtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 非法操作:a.lsthtml
+
+[ 2015-05-06T19:46:44+08:00 ] 127.0.0.1 /Asdf/Goods/lsthtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+ERR: 非法操作:lsthtml
+
+[ 2015-05-06T19:46:50+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0796s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0479s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2015-05-06T21:12:27+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0140s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001243s ]
+
+[ 2015-05-06T21:15:29+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0104s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002030s ]
+
+[ 2015-05-06T21:16:12+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0087s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: data D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 40 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2015-05-06T21:49:08+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0056s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+
+[ 2015-05-06T21:49:36+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 44 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 46 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 48 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 50 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 52 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 54 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 44 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 46 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 48 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 50 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 52 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002057s ]
+
+[ 2015-05-06T21:50:33+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0068s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 44 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 46 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 48 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 50 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 52 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 54 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 44 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 46 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 48 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 50 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 52 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001732s ]
+
+[ 2015-05-06T21:50:43+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003540s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0076s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 45 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 47 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 49 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 51 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 53 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 55 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 45 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 47 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 49 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 51 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 53 行.
+NOTIC: [8] Undefined variable: d D:\wamp\www\xm\Application\Runtime\Cache\Asdf\c455a8e054f4f3197579d3cc45da57a9.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001423s ]
+
+[ 2015-05-06T22:03:51+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2015-05-06T22:06:20+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0113s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2015-05-06T22:06:21+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0089s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001832s ]
+
+[ 2015-05-06T22:07:21+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2015-05-06T22:07:52+08:00 ] 127.0.0.1 /Asdf/Goods/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002423s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0077s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2015-05-06T22:11:56+08:00 ] 127.0.0.1 /Asdf/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2015-05-06T22:12:09+08:00 ] 127.0.0.1 /Asdf/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '老鸡巴' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `sh_goods` (`goods_name`,`market_price`,`shop_price`,`logo`,`is_on_sale`) VALUES ('老鸡巴','4000','2000','23','否') [ RunTime:0.0208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-05-06T22:12:10+08:00 ] 127.0.0.1 /Asdf/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0108s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+

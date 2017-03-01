@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/www.shop.com/!svn/ver/8/Application/Goods/Controller
+END
+TypeController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/www.shop.com/!svn/ver/1/Application/Goods/Controller/TypeController.class.php
+END
+AttributeController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/www.shop.com/!svn/ver/1/Application/Goods/Controller/AttributeController.class.php
+END
+BrandController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/www.shop.com/!svn/ver/1/Application/Goods/Controller/BrandController.class.php
+END
+GoodsController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/www.shop.com/!svn/ver/11/Application/Goods/Controller/GoodsController.class.php
+END
+CategoryController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/www.shop.com/!svn/ver/11/Application/Goods/Controller/CategoryController.class.php
+END

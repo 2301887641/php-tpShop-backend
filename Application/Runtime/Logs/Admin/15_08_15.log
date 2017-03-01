@@ -1,0 +1,9 @@
+[ 2015-08-15T20:28:51+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-15T20:28:51+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2015-08-15T20:28:51+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+

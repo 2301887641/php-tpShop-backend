@@ -1,0 +1,6 @@
+[ 2015-08-02T20:37:03+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-02T21:55:47+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-08-02/55be1f94e4e1c.png;width=310px;height=70px
+ERR: 无法加载模块:Public
+

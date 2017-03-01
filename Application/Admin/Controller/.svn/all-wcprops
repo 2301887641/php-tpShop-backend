@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/www.shop.com/!svn/ver/6/Application/Admin/Controller
+END
+RoleController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/www.shop.com/!svn/ver/1/Application/Admin/Controller/RoleController.class.php
+END
+PrivilegeController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/www.shop.com/!svn/ver/1/Application/Admin/Controller/PrivilegeController.class.php
+END
+IndexController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/www.shop.com/!svn/ver/1/Application/Admin/Controller/IndexController.class.php
+END
+AdminController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/www.shop.com/!svn/ver/1/Application/Admin/Controller/AdminController.class.php
+END
+LoginController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/www.shop.com/!svn/ver/6/Application/Admin/Controller/LoginController.class.php
+END

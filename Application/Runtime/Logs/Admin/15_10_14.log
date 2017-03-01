@@ -1,0 +1,23 @@
+[ 2015-10-14T20:32:30+08:00 ] 127.0.0.1 /Admin/Login/login.html
+ERR: SQLSTATE[HY000] [2002] 由于目标机器积极拒绝，无法连接。
+
+
+[ 2015-10-14T20:32:50+08:00 ] 127.0.0.1 /Admin/Login/login.html
+ERR: SQLSTATE[HY000] [2002] 由于目标机器积极拒绝，无法连接。
+
+
+[ 2015-10-14T20:33:09+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2015-10-14T20:33:09+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2015-10-14T20:33:09+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2015-10-14T20:33:09+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 闈炴硶鎿嶄綔:Js
+
+[ 2015-10-14T20:33:09+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 闈炴硶鎿嶄綔:Js
+

@@ -1,0 +1,42 @@
+[ 2015-06-10T20:49:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-06-10T20:49:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-06-10T22:23:58+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-06-10/small_55783f0cdec7b.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-10T22:23:59+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-06-10/small_55783f0cdec7b.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-10T22:24:01+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-06-10/small_55783f0cdec7b.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-10T22:24:02+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-06-10/small_55783f0cdec7b.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2015-06-10T22:26:57+08:00 ] 127.0.0.1 /Public/Uploads/Goods/2015-06-10/small_55783f0cdec7b.JPG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载模块:Public
+

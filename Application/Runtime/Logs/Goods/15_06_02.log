@@ -1,0 +1,1167 @@
+[ 2015-06-02T18:49:39+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001165s ]
+
+[ 2015-06-02T19:35:40+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0663s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0731s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003236s ]
+
+[ 2015-06-02T19:35:46+08:00 ] 127.0.0.1 /Goods/Goods/del/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0098s ]
+SQL: DELETE FROM `sh_goods` WHERE `id` = 14 [ RunTime:0.0573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2015-06-02T19:35:47+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0128s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2015-06-02T19:35:49+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0114s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2015-06-02T19:35:51+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0712s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000496s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2015-06-02T19:35:56+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2015-06-02T19:37:07+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2015-06-02T19:46:13+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2015-06-02T19:49:36+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2015-06-02T19:49:51+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-06-02T19:49:53+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+
+[ 2015-06-02T20:22:33+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2015-06-02T20:23:14+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2015-06-02T20:25:02+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-02T20:44:36+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001935s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T20:46:24+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-02T21:07:50+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-02T21:10:53+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003264s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2015-06-02T21:11:02+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556dab65e3eaa.jpg','Goods/2015-06-02/small_556dab65e3eaa.jpg','Goods/2015-06-02/mid_556dab65e3eaa.jpg','Goods/2015-06-02/big_556dab65e3eaa.jpg','1433250662117306') [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0230s ]
+ERR: Think\Model:pic_exsits方法不存在！
+
+[ 2015-06-02T21:11:19+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-06-02T21:11:38+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556dab8a7e760.jpg','Goods/2015-06-02/small_556dab8a7e760.jpg','Goods/2015-06-02/mid_556dab8a7e760.jpg','Goods/2015-06-02/big_556dab8a7e760.jpg','1433250698867587') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0053s ]
+
+[ 2015-06-02T21:15:22+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011221s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000940s ]
+
+[ 2015-06-02T21:15:28+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556dac6fd1601.jpg','Goods/2015-06-02/small_556dac6fd1601.jpg','Goods/2015-06-02/mid_556dac6fd1601.jpg','Goods/2015-06-02/big_556dac6fd1601.jpg','1433250928828549') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: name D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 230 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+NOTIC: [8] Undefined index: error D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 280 行.
+
+[ 2015-06-02T21:16:23+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556daca75a6bf.jpg','Goods/2015-06-02/small_556daca75a6bf.jpg','Goods/2015-06-02/mid_556daca75a6bf.jpg','Goods/2015-06-02/big_556daca75a6bf.jpg','1433250983573491') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0054s ]
+
+[ 2015-06-02T21:20:46+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556dadadd5290.jpg','Goods/2015-06-02/small_556dadadd5290.jpg','Goods/2015-06-02/mid_556dadadd5290.jpg','Goods/2015-06-02/big_556dadadd5290.jpg','1433251246277119') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0056s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2015-06-02T21:32:18+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+
+[ 2015-06-02T21:32:25+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db0685dd18.jpg','Goods/2015-06-02/small_556db0685dd18.jpg','Goods/2015-06-02/mid_556db0685dd18.jpg','Goods/2015-06-02/big_556db0685dd18.jpg','1433251944951491') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0056s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 121 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 121 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 122 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 122 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 123 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0084s ]
+
+[ 2015-06-02T21:34:20+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db0dbab0fc.jpg','Goods/2015-06-02/small_556db0dbab0fc.jpg','Goods/2015-06-02/mid_556db0dbab0fc.jpg','Goods/2015-06-02/big_556db0dbab0fc.jpg','1433252059495514') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0060s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 121 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 121 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 122 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 122 行.
+NOTIC: [8] Undefined index: savepath D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 123 行.
+NOTIC: [8] Undefined index: savename D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0058s ]
+SQL: INSERT INTO `sh_goods_pic` (`logo`,`sm_logo`,`big_logo`) VALUES ('Goods/2015-06-02/556db0dbd62e6.jpg','small_','big_') [ RunTime:0.0005s ]
+
+[ 2015-06-02T21:36:10+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db148f25bb.jpg','Goods/2015-06-02/small_556db148f25bb.jpg','Goods/2015-06-02/mid_556db148f25bb.jpg','Goods/2015-06-02/big_556db148f25bb.jpg','1433252169784265') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0063s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0063s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('22','Goods/2015-06-02/556db14932c25.jpg','Goods/2015-06-02/small_556db14932c25.jpg','Goods/2015-06-02/big_556db14932c25.jpg') [ RunTime:0.0006s ]
+
+[ 2015-06-02T21:36:47+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db16db9421.jpg','Goods/2015-06-02/small_556db16db9421.jpg','Goods/2015-06-02/mid_556db16db9421.jpg','Goods/2015-06-02/big_556db16db9421.jpg','1433252205297432') [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0053s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0059s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('23','Goods/2015-06-02/556db16de5742.jpg','Goods/2015-06-02/small_556db16de5742.jpg','Goods/2015-06-02/big_556db16de5742.jpg') [ RunTime:0.0006s ]
+
+[ 2015-06-02T21:39:13+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db200589cb.jpg','Goods/2015-06-02/small_556db200589cb.jpg','Goods/2015-06-02/mid_556db200589cb.jpg','Goods/2015-06-02/big_556db200589cb.jpg','1433252352691373') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0054s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('24','Goods/2015-06-02/556db20083441.jpg','Goods/2015-06-02/small_556db20083441.jpg','Goods/2015-06-02/big_556db20083441.jpg') [ RunTime:0.0007s ]
+
+[ 2015-06-02T21:40:34+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db2515bc72.jpg','Goods/2015-06-02/small_556db2515bc72.jpg','Goods/2015-06-02/mid_556db2515bc72.jpg','Goods/2015-06-02/big_556db2515bc72.jpg','1433252433910551') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0054s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('25','Goods/2015-06-02/556db2518914d.jpg','Goods/2015-06-02/small_556db2518914d.jpg','Goods/2015-06-02/big_556db2518914d.jpg') [ RunTime:0.0007s ]
+
+[ 2015-06-02T21:43:44+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db30f1c8f3.jpg','Goods/2015-06-02/small_556db30f1c8f3.jpg','Goods/2015-06-02/mid_556db30f1c8f3.jpg','Goods/2015-06-02/big_556db30f1c8f3.jpg','1433252623766770') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0061s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('26','Goods/2015-06-02/556db30f49bae.jpg','Goods/2015-06-02/small_556db30f49bae.jpg','Goods/2015-06-02/big_556db30f49bae.jpg') [ RunTime:0.0007s ]
+
+[ 2015-06-02T21:44:31+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db33ee9069.jpg','Goods/2015-06-02/small_556db33ee9069.jpg','Goods/2015-06-02/mid_556db33ee9069.jpg','Goods/2015-06-02/big_556db33ee9069.jpg','1433252671359173') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0067s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0052s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 114 行.
+
+[ 2015-06-02T21:44:53+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-06-02T21:46:03+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'sadsf' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('sadsf','45','19','234324','234234','1','','1','','Goods/2015-06-02/556db39a4e1f3.jpg','Goods/2015-06-02/small_556db39a4e1f3.jpg','Goods/2015-06-02/mid_556db39a4e1f3.jpg','Goods/2015-06-02/big_556db39a4e1f3.jpg','1433252762647138') [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0054s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('28','Goods/2015-06-02/556db39a7bf01.jpg','Goods/2015-06-02/small_556db39a7bf01.jpg','Goods/2015-06-02/big_556db39a7bf01.jpg') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+
+[ 2015-06-02T21:46:04+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0092s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002098s ]
+
+[ 2015-06-02T21:47:09+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001461s ]
+
+[ 2015-06-02T21:47:30+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asdfa' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('asdfa','46','19','2222','333','1','','1','','Goods/2015-06-02/556db3f1b1008.jpg','Goods/2015-06-02/small_556db3f1b1008.jpg','Goods/2015-06-02/mid_556db3f1b1008.jpg','Goods/2015-06-02/big_556db3f1b1008.jpg','1433252850203703') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+
+[ 2015-06-02T21:49:05+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asdfa' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('asdfa','46','19','2222','333','1','','1','','Goods/2015-06-02/556db4502ad8d.jpg','Goods/2015-06-02/small_556db4502ad8d.jpg','Goods/2015-06-02/mid_556db4502ad8d.jpg','Goods/2015-06-02/big_556db4502ad8d.jpg','1433252945662571') [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0054s ]
+
+[ 2015-06-02T21:49:12+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2015-06-02T22:02:59+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asdfa' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-06-02T22:03:03+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2015-06-02T22:03:16+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asdfa' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('asdfa','46','19','2222','333','1','','1','','Goods/2015-06-02/556db7a3be3a9.jpg','Goods/2015-06-02/small_556db7a3be3a9.jpg','Goods/2015-06-02/mid_556db7a3be3a9.jpg','Goods/2015-06-02/big_556db7a3be3a9.jpg','1433253796933529') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-06-02T22:03:18+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0090s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001715s ]
+
+[ 2015-06-02T22:04:18+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-06-02T22:04:37+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'adsfas' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('adsfas','45','0','2324','234234','1','','1','','Goods/2015-06-02/556db7f446b64.jpg','Goods/2015-06-02/small_556db7f446b64.jpg','Goods/2015-06-02/mid_556db7f446b64.jpg','Goods/2015-06-02/big_556db7f446b64.jpg','1433253877744372') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-06-02T22:04:38+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2015-06-02T22:08:00+08:00 ] 127.0.0.1 /Goods/Goods/del/id/31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0137s ]
+SQL: DELETE FROM `sh_goods` WHERE `id` = 31 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2015-06-02T22:08:01+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0130s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002346s ]
+
+[ 2015-06-02T22:08:03+08:00 ] 127.0.0.1 /Goods/Goods/del/id/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0083s ]
+SQL: DELETE FROM `sh_goods` WHERE `id` = 32 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003012s ]
+
+[ 2015-06-02T22:08:04+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0081s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2015-06-02T22:08:06+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2015-06-02T22:08:30+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asfasd' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('asfasd','46','19','2222','33333','1','','1','','Goods/2015-06-02/556db8dbf33ba.jpg','Goods/2015-06-02/small_556db8dbf33ba.jpg','Goods/2015-06-02/mid_556db8dbf33ba.jpg','Goods/2015-06-02/big_556db8dbf33ba.jpg','1433254109532872') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0065s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0066s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('33','Goods/2015-06-02/556db8dd0f563.jpg','Goods/2015-06-02/small_556db8dd0f563.jpg','Goods/2015-06-02/big_556db8dd0f563.jpg') [ RunTime:0.0007s ]
+
+[ 2015-06-02T22:09:11+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = 'asfasd' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('asfasd','46','19','2222','33333','1','','1','','Goods/2015-06-02/556db904cf885.jpg','Goods/2015-06-02/small_556db904cf885.jpg','Goods/2015-06-02/mid_556db904cf885.jpg','Goods/2015-06-02/big_556db904cf885.jpg','1433254149482972') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0058s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0065s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('34','Goods/2015-06-02/556db905e0b65.jpg','Goods/2015-06-02/small_556db905e0b65.jpg','Goods/2015-06-02/big_556db905e0b65.jpg') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+
+[ 2015-06-02T22:09:12+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0088s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+

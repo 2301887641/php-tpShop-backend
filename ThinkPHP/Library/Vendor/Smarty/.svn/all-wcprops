@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/Smarty
+END
+debug.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/Smarty/debug.tpl
+END
+Smarty.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/Smarty/Smarty.class.php
+END
+SmartyBC.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/Smarty/SmartyBC.class.php
+END

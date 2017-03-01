@@ -1,0 +1,75 @@
+[ 2015-08-29T08:36:58+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T08:36:58+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T08:36:58+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T13:54:04+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:05+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:05+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:06+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/User/userList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:07+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:07+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:08+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T13:54:08+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T14:12:17+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T14:12:21+08:00 ] 127.0.0.1 /Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2015-08-29T15:20:36+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T15:20:36+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T15:20:36+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T15:39:38+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T15:39:38+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T15:39:38+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:46:24+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:46:24+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:46:24+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:54:06+08:00 ] 127.0.0.1 /Admin/Index/Js/global.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:54:06+08:00 ] 127.0.0.1 /Admin/Index/Js/utils.js
+ERR: 非法操作:Js
+
+[ 2015-08-29T20:54:07+08:00 ] 127.0.0.1 /Admin/Index/Js/transport.js
+ERR: 非法操作:Js
+

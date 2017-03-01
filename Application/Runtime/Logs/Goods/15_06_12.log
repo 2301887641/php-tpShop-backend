@@ -1,0 +1,2376 @@
+[ 2015-06-12T19:38:06+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001100s ]
+
+[ 2015-06-12T19:38:20+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0776s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0551s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2015-06-12T19:38:26+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0564s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0316s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2015-06-12T19:38:30+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2015-06-12T19:40:21+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0252s ]
+
+[ 2015-06-12T19:40:55+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T19:41:06+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2015-06-12T19:41:12+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-12T19:41:43+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-06-12T19:42:01+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T19:42:55+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T19:44:19+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T19:47:11+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-06-12T19:47:47+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] unlink(Goods/2015-06-11/557990b557e19.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 214 行.
+NOTIC: [2] unlink(Goods/2015-06-11/small_557990b557e19.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 215 行.
+NOTIC: [2] unlink(Goods/2015-06-11/mid_557990b557e19.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 216 行.
+NOTIC: [2] unlink(Goods/2015-06-11/big_557990b557e19.jpg) [<a href='function.unlink'>function.unlink</a>]: No such file or directory D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 217 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0',`logo`='Goods/2015-06-12/557ac6e1ec0cf.jpg',`sm_logo`='Goods/2015-06-12/small_557ac6e1ec0cf.jpg',`mid_logo`='Goods/2015-06-12/mid_557ac6e1ec0cf.jpg',`big_logo`='Goods/2015-06-12/big_557ac6e1ec0cf.jpg' WHERE `id` = 61 [ RunTime:0.0302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001762s ]
+
+[ 2015-06-12T19:47:48+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0097s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+
+[ 2015-06-12T19:49:11+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 120 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2015-06-12T19:49:17+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `sh_goods` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0',`logo`='Goods/2015-06-12/557ac73c4100d.jpg',`sm_logo`='Goods/2015-06-12/small_557ac73c4100d.jpg',`mid_logo`='Goods/2015-06-12/mid_557ac73c4100d.jpg',`big_logo`='Goods/2015-06-12/big_557ac73c4100d.jpg' WHERE `id` = 61 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-06-12T19:49:18+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0089s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007076s ]
+
+[ 2015-06-12T20:10:50+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0505s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2015-06-12T20:10:52+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+
+[ 2015-06-12T20:11:31+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-06-12T20:11:32+08:00 ] 127.0.0.1 /Goods/Goods/save/id/IMG_PATHGoods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-06-12T20:11:32+08:00 ] 127.0.0.1 /Goods/Goods/save/id/IMG_PATHGoods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-06-12T20:11:37+08:00 ] 127.0.0.1 /Goods/Goods/save/id/IMG_PATHGoods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-06-12T20:11:48+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002941s ]
+
+[ 2015-06-12T20:11:49+08:00 ] 127.0.0.1 /Goods/Goods/save/id/Public/Uploads/Goods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-06-12T20:11:49+08:00 ] 127.0.0.1 /Goods/Goods/save/id/Public/Uploads/Goods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+
+[ 2015-06-12T20:11:55+08:00 ] 127.0.0.1 /Goods/Goods/save/id/Public/Uploads/Goods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2015-06-12T20:12:53+08:00 ] 127.0.0.1 /Goods/Goods/save/id/Public/Uploads/Goods/2015-06-12/small_557ac73c4100d.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-06-12T20:13:14+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2015-06-12T20:14:02+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001483s ]
+
+[ 2015-06-12T20:14:18+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2015-06-12T20:14:44+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2015-06-12T20:18:47+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] Undefined variable: member_info D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 121 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-06-12T20:24:21+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2015-06-12T20:26:38+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+
+[ 2015-06-12T20:27:24+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+
+[ 2015-06-12T20:27:39+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+
+[ 2015-06-12T20:28:15+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+
+[ 2015-06-12T20:46:45+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015839s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0718s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0327s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-06-12T20:47:31+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+
+[ 2015-06-12T20:47:41+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 138 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2015-06-12T20:58:18+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2015-06-12T20:58:40+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2015-06-12T20:58:47+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2015-06-12T20:59:49+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: price D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 128 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2015-06-12T21:00:11+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2015-06-12T21:03:13+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2015-06-12T21:08:29+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T21:08:32+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008361s ]
+
+[ 2015-06-12T21:08:50+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-06-12T21:17:09+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=61 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: M D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 250 行.
+NOTIC: [8] Undefined variable: M D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 250 行.
+NOTIC: [8] Undefined variable: M D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 250 行.
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000865s ]
+
+[ 2015-06-12T21:17:10+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2015-06-12T21:17:13+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2015-06-12T21:19:59+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003644s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_member_price` WHERE ( goods_id=61 )  [ RunTime:0.0004s ]
+
+[ 2015-06-12T21:36:57+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2015-06-12T21:37:08+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0053s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=1 ) [ RunTime:0.0361s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','1','221.00') [ RunTime:0.0135s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=2 ) [ RunTime:0.0003s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','2','333.00') [ RunTime:0.0002s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=3 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','3','444.00') [ RunTime:0.0002s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-06-12T21:37:10+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004089s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0058s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2015-06-12T21:37:21+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-06-12T21:37:25+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0055s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=1 ) [ RunTime:0.0005s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','1','221.00') [ RunTime:0.0003s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=2 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','2','333.00') [ RunTime:0.0002s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=3 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','3','444.00') [ RunTime:0.0002s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-06-12T21:37:27+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0084s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-06-12T21:37:34+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-06-12T21:37:40+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0053s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-06-12T21:37:42+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-06-12T21:37:46+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2015-06-12T21:37:56+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0065s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=1 ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','1','221.00') [ RunTime:0.0003s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=2 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','2','332.00') [ RunTime:0.0002s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=3 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','3','443.00') [ RunTime:0.0003s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+
+[ 2015-06-12T21:37:57+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0069s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-06-12T21:50:39+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0058s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2015-06-12T21:50:41+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2015-06-12T21:51:30+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2015-06-12T21:51:39+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0059s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=1 ) [ RunTime:0.0005s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','1','221.00') [ RunTime:0.0003s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=2 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','2','332.00') [ RunTime:0.0002s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=3 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','3','143.00') [ RunTime:0.0002s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+
+[ 2015-06-12T21:51:41+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0075s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2015-06-12T21:51:43+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2015-06-12T21:54:43+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '多大的' AND `id` <> '61' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0055s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=1 ) [ RunTime:0.0004s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','1','221.00') [ RunTime:0.0003s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=2 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','2','332.00') [ RunTime:0.0002s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( level_id=3 ) [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_member_price` (`goods_id`,`level_id`,`price`) VALUES ('61','3','0') [ RunTime:0.0002s ]
+SQL: UPDATE `sh_goods` SET `goods_name`='多大的',`cat_id`='46',`brand_id`='19',`market_price`='3333.00',`shop_price`='4444.00',`is_on_sale`='2',`goods_weight`='22.00',`weight_unit`='1',`goods_desc`='&lt;p&gt;阿桑的发生大时代发生的&lt;br/&gt;&lt;/p&gt;',`type_id`='0' WHERE `id` = 61 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-06-12T21:54:44+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0069s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2015-06-12T21:54:46+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-06-12T22:06:20+08:00 ] 127.0.0.1 /Goods/Goods/save/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 61 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=61 )  [ RunTime:0.0005s ]
+
+[ 2015-06-12T22:07:33+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0100s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2015-06-12T22:08:45+08:00 ] 127.0.0.1 /Goods/Goods/del/id/61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0076s ]
+SQL: SELECT `logo`,`sm_logo`,`mid_logo`,`big_logo` FROM `sh_goods` WHERE ( id=61 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0059s ]
+SQL: DELETE FROM `sh_member_price` WHERE ( goods_id=61 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.0618s ]
+SQL: DELETE FROM `sh_goods_attr` WHERE ( goods_id=61 ) [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0060s ]
+SQL: SELECT `logo`,`sm_logo`,`big_logo` FROM `sh_goods_pic` WHERE ( goods_id=61 )  [ RunTime:0.0004s ]
+SQL: DELETE FROM `sh_goods_pic` WHERE ( goods_id=61 ) [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: logo D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 203 行.
+NOTIC: [2] unlink(Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 203 行.
+NOTIC: [8] Undefined index: sm_logo D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 204 行.
+NOTIC: [2] unlink(Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 204 行.
+NOTIC: [8] Undefined index: big_logo D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 205 行.
+NOTIC: [2] unlink(Public/Uploads/) [<a href='function.unlink'>function.unlink</a>]: Permission denied D:\wamp\www\xm\Application\Goods\Model\GoodsModel.class.php 第 205 行.
+SQL: DELETE FROM `sh_goods` WHERE `id` = 61 [ RunTime:0.0177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2015-06-12T22:08:46+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0093s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-06-12T22:08:56+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_type` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `sh_type`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-06-12T22:09:29+08:00 ] 127.0.0.1 /Goods/Goods/ajaxattr/type_id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `sh_attribute` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `sh_attribute` WHERE ( type_id=5 )  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2015-06-12T22:09:57+08:00 ] 127.0.0.1 /Goods/Goods/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `sh_goods` WHERE `goods_name` = '水电费' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `sh_goods` (`goods_name`,`cat_id`,`brand_id`,`market_price`,`shop_price`,`is_on_sale`,`goods_weight`,`weight_unit`,`goods_desc`,`type_id`,`logo`,`sm_logo`,`mid_logo`,`big_logo`,`goods_sn`) VALUES ('水电费','45','19','2333','2222','2','33','2','&lt;p&gt;水电费时代发生的&lt;br/&gt;&lt;/p&gt;','5','Goods/2015-06-12/557ae8322ead9.jpg','Goods/2015-06-12/small_557ae8322ead9.jpg','Goods/2015-06-12/mid_557ae8322ead9.jpg','Goods/2015-06-12/big_557ae8322ead9.jpg','1434118195219461') [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0055s ]
+SQL: INSERT INTO `sh_member_price` (`price`,`level_id`,`goods_id`) VALUES ('22','1','62') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sh_member_price` (`price`,`level_id`,`goods_id`) VALUES ('33','2','62') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sh_member_price` (`price`,`level_id`,`goods_id`) VALUES ('44','3','62') [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\xm\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0059s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('62','Goods/2015-06-12/557ae833299ed.jpg','Goods/2015-06-12/small_557ae833299ed.jpg','Goods/2015-06-12/big_557ae833299ed.jpg') [ RunTime:0.0005s ]
+SQL: INSERT INTO `sh_goods_pic` (`goods_id`,`logo`,`sm_logo`,`big_logo`) VALUES ('62','Goods/2015-06-12/557ae8332b3ce.jpg','Goods/2015-06-12/small_557ae8332b3ce.jpg','Goods/2015-06-12/big_557ae8332b3ce.jpg') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_goods_attr` [ RunTime:0.0056s ]
+SQL: INSERT INTO `sh_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('62','14','500万','22') [ RunTime:0.0004s ]
+SQL: INSERT INTO `sh_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('62','15','日本','333') [ RunTime:0.0003s ]
+SQL: INSERT INTO `sh_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('62','15','美国','444') [ RunTime:0.0002s ]
+SQL: INSERT INTO `sh_goods_attr` (`goods_id`,`attr_id`,`attr_value`,`attr_price`) VALUES ('62','16','苹果','22222') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+
+[ 2015-06-12T22:09:58+08:00 ] 127.0.0.1 /Goods/Goods/lst.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0072s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `sh_goods` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\ThinkPHP\Library\Think\Db\Driver.class.php 第 493 行.
+SQL: SELECT * FROM `sh_goods` ORDER BY id LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2015-06-12T22:12:47+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000321s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2015-06-12T22:13:19+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 139 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2015-06-12T22:14:12+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001481s ]
+
+[ 2015-06-12T22:15:13+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2015-06-12T22:16:05+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2015-06-12T22:16:29+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2015-06-12T22:16:39+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2015-06-12T22:16:58+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2015-06-12T22:17:18+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002725s ]
+
+[ 2015-06-12T22:17:51+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2015-06-12T22:18:53+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001342s ]
+
+[ 2015-06-12T22:19:03+08:00 ] 127.0.0.1 /Goods/Goods/save/id/62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `sh_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sh_goods` WHERE `id` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sh_category`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_brand` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sh_brand`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_member_level` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `sh_member_level`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sh_member_price` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `sh_member_price`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sh_goods_pic` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `sh_goods_pic` WHERE ( goods_id=62 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: type D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\xm\Application\Runtime\Cache\Goods\8883ea0439a571f80c68276495f629c6.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+

@@ -1,0 +1,36 @@
+[ 2015-06-21T21:40:18+08:00 ] 127.0.0.1 /Article/Article/lst.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.articlecat' doesn't exist
+
+[ 2015-06-21T21:41:01+08:00 ] 127.0.0.1 /Article/Article/lst.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'shop.article_cat' doesn't exist
+
+[ 2015-06-21T21:41:22+08:00 ] 127.0.0.1 /Article/Article/lst.html
+ERR: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous
+
+[ 2015-06-21T22:15:58+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:45+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:46+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+
+[ 2015-06-21T22:16:47+08:00 ] 127.0.0.1 /Article/ArticleCat/lst.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.cat_id' in 'on clause'
+

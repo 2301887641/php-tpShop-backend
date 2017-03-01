@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests
+END
+ParseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/ParseTest.php
+END
+quotes.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/quotes.yaml
+END
+indent_1.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/indent_1.yaml
+END
+comments.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/comments.yaml
+END
+IndentTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/IndentTest.php
+END
+DumpTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/DumpTest.php
+END
+failing1.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/failing1.yaml
+END
+RoundTripTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/www.shop.com/!svn/ver/1/ThinkPHP/Library/Vendor/spyc/tests/RoundTripTest.php
+END
