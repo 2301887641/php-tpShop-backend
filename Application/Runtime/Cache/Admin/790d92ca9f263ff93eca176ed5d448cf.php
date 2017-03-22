@@ -25,7 +25,7 @@
     <div style="clear:both"></div>
 </h1>
 <div class="main-div">
-    <form method="post" action="/Admin/Role/save/id/5" enctype="multipart/form-data" >
+    <form method="post" action="/Admin/Role/save/id/1" enctype="multipart/form-data" >
        
         <table cellspacing="1" cellpadding="3" width="100%">
             <input type="hidden" name="id" value="<?php echo $data['id']?>">            <tr>
